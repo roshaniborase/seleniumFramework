@@ -1,0 +1,6 @@
+testNG\assertion_demo.class
+testNG\XMLparametrization.class
+testNG\sequence.class
+testNG\dependsOnJava.class
+testNG\groups.class
+testNG\login.class
