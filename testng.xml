@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="orangeHRM">
-  <test thread-count="5" name="mobile Test">
+<suite name="testng">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="testNG.sequence"/>
-      <class name="testNG.login"/>
+      <class name="testNG.basicAnnotation"/>
       <class name="testNG.dependsOnJava"/>
+      <class name="testNG.XMLparametrization"/>
+      <class name="testNG.priority"/>
     </classes>
-  </test> <!-- mobile Test -->
-</suite> <!-- orangeHRM -->
+  </test> <!-- Test -->
+</suite> <!-- testng -->

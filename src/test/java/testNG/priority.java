@@ -2,7 +2,7 @@ package testNG;
 
 import org.testng.annotations.Test;
 
-public class sequence {
+public class priority {
 	@Test(priority = 2)
 	public void apple()
 	{
